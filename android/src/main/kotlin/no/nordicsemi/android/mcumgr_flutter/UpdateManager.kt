@@ -46,7 +46,7 @@ class UpdateManager(
 		manager.setMemoryAlignment(4)
 		manager.setEstimatedSwapTime(5000)
 		manager.setWindowUploadCapacity(3)
-		manager.setMode(FirmwareUpgradeManager.Mode.CONFIRM_ONLY)
+		manager.setMode(FirmwareUpgradeManager.Mode.TEST_AND_CONFIRM)
 	}
 
 	/**
